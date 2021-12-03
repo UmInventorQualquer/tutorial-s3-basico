@@ -1,0 +1,32 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "description": "Scripts to try AWS S3",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UmInventorQualquer/tutorial-s3-basico.git"
+  },
+  "keywords": [
+    "AWS",
+    "S3",
+    "IAM",
+    "UPLOAD",
+    "DOWNLOAD"
+  ],
+  "author": "Wesley Milan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UmInventorQualquer/tutorial-s3-basico/issues"
+  },
+  "homepage": "https://github.com/UmInventorQualquer/tutorial-s3-basico#readme",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.36.0",
+    "@aws-sdk/credential-provider-ini": "^3.36.0",
+    "aws-sdk": "^2.1004.0"
+  }
+}
